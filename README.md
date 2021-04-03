@@ -3,6 +3,6 @@
 <ul>
   <li>HTML5</li>
   <li>CSS</li>
-  <li>SCSS</li>
+  <li>SASS</li>
   <li>Bootstrap</li>
 </ul>
