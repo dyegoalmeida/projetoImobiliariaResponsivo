@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Builder</title>
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-<!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"> -->
+    <title>Minha imobiliária</title>
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 <link rel="stylesheet" href="_cdn/css/bootstrap_custom.css">
@@ -49,17 +48,16 @@
                     </a>
                 </div>
 
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-front" href="#">Destaque</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Alugar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Comprar</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="?app=home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-front" href="?app=property">Destaque</a></li>
+                        <li class="nav-item"><a class="nav-link" href="?app=filtro">Alugar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="?app=filtro">Comprar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="?app=contato">Contato</a></li>
                     </ul>
                 </div>
 
@@ -99,11 +97,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <h1 class="pb-2">Navegue <span class="text-front">Aqui!</span></h1>
                     <ul class="list-inline">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#" class="text-front !important">Destaque</a></li>
-                        <li><a href="#">Alugar</a></li>
-                        <li><a href="#">Comprar</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="?app=home">Home</a></li>
+                        <li><a href="?app=property" class="text-front !important">Destaque</a></li>
+                        <li><a href="?app=filtro">Alugar</a></li>
+                        <li><a href="?app=filtro">Comprar</a></li>
+                        <li><a href="?app=contato">Contato</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-9 col-lg-6">
@@ -138,14 +136,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-pt_BR.min.js"></script>
-
-  <!--     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-    <script src="node_modules/bootstrap-select/dist/js/i18n/defaults-pt_BR.min.js"></script> -->
 
 </body>
 
