@@ -69,7 +69,7 @@
     $getApp = filter_input(INPUT_GET, 'app', FILTER_SANITIZE_STRIPPED);
     if (empty($getApp)) {
         require 'widget/home.php';
-    } elseif (!empty($getApp) && file_exists(filename: 'widget/' . $getApp . '.php')) {
+    } elseif (!empty($getApp) && file_exists('widget/' . $getApp . '.php')) {
         require 'widget/' . $getApp . '.php';
     } else {
         echo "Ooops, erro no app informado!";
